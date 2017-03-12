@@ -1,0 +1,24 @@
+{
+  "create": {
+    "type": "object",
+    "properties": {
+      "mac_address": {
+        "type": "string"
+      },
+      "device_id": {
+        "type": "string"
+      },
+      "project_id": {
+        "type": "string"
+      }
+    },
+    "required": ["mac_address","device_id","project_id"]
+  },
+  "update": {
+    "type": "object",
+    "properties": {
+      "title": {},
+      "author": {}
+    }
+  }
+}
